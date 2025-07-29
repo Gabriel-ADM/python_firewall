@@ -24,3 +24,12 @@ Este projeto monitora tráfego de rede em tempo real, identifica potenciais ataq
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 
+## Execute o codigo python
+
+```bash
+python3 main.py
+
+## Para testar, execute o seguinte comando no terminal
+
+```bash
+for i in {1..120}; do echo "192.168.1.100 - - [$(date)] \"GET / HTTP/1.1\" 200 1234";
